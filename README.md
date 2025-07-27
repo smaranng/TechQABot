@@ -2,7 +2,7 @@
 # 🧠 Tech QA Bot
 
 
-Tech QA Bot is an intelligent QnA assistant built using Python, leveraging advanced Retrieval-Augmented Generation (RAG) techniques—including Plain RAG, Hybrid RAG, and Agentic RAG with LangGraph, powered by ChromaDB and TinyLLaMA (via Ollama). It provides answers from technical communities like Reddit and Stack Overflow, with a user-friendly Streamlit interface and API endpoints powered by FastAPI.
+🤖 Tech QA Bot is an intelligent QnA assistant built using Python, leveraging advanced Retrieval-Augmented Generation (RAG) techniques—including Plain RAG, Hybrid RAG, and Agentic RAG with LangGraph, powered by ChromaDB and TinyLLaMA (via Ollama). It provides answers from technical communities like Reddit and Stack Overflow, with a user-friendly Streamlit interface and API endpoints powered by FastAPI.
 
 ## 🚀 Features
 
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 
 4. **Run Ollama and Load the Model**
    
-- Ollama 📂 download link:  https://ollama.com/download
+- Ollama download link:  https://ollama.com/download
 - Ensure Ollama is installed and running.
 ```
 
