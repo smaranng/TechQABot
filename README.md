@@ -1,5 +1,9 @@
 
-# <img src="assets/logo.png" width="70"> Tech QA Bot
+<h1>
+  <img src="assets/logo.png" width="50" style="vertical-align: middle; margin-right: 10px;">
+  Tech QA Bot
+</h1>
+
 
 
 🤖 Tech QA Bot is an intelligent QnA assistant built using Python, leveraging advanced Retrieval-Augmented Generation (RAG) techniques—including Plain RAG, Hybrid RAG, and Agentic RAG with LangGraph, powered by ChromaDB and TinyLLaMA (via Ollama). It provides answers from technical communities like Reddit and Stack Overflow, with a user-friendly Streamlit interface and API endpoints powered by FastAPI.
