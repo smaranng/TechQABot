@@ -152,6 +152,24 @@ python viewdatabase.py
 - Run the embedding scripts (`embedder_stackoverflow.py`, `embeder_reddit.py`) after scraping to populate ChromaDB.
 - Assets like `stack.png`, `reddit.png`, and `techqa_logo.png` are used in the UI. *Do not remove them.*
 - The system uses `stackoverflow.db` and `techqa.db` for storing forum content and scraped data.
+- Make sure Ollama is installed and the TinyLLaMA model is available locally.
+-The database viewer (Flask) uses index.html and style.css for a clean UI.
+
+## 🙌 Credits
+
+
+LLM: Ollama
+
+RAG Orchestration: LangGraph
+
+Embeddings: SentenceTransformers
+
+Vector DB: ChromaDB
+
+
+
+
+
 
 
 
