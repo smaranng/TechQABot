@@ -103,7 +103,8 @@ pip install -r requirements.txt
 ```
 
 4. **Run Ollama and Load the Model**
-  Ollama 📂 download link:  https://ollama.com/download
+   
+- Ollama 📂 download link:  https://ollama.com/download
 - Ensure Ollama is installed and running.
 ```
 
