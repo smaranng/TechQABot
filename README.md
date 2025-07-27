@@ -84,7 +84,7 @@ tech_qa_bot/
 1. **Clone the Repository**
 ```
 
-git clone https://github.com/yourusername/tech_qa_bot.git
+git clone https://github.com/smaranng/tech_qa_bot.git
 cd tech_qa_bot
 
 ```
