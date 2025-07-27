@@ -1,8 +1,8 @@
+<p align="left">
+  <img src="assets/logo.png" alt="Logo" width="50" style="display:inline; vertical-align: middle; margin-right:10px;">
+  <span style="font-size: 2em; font-weight: bold;">Tech QA Bot</span>
+</p>
 
-<h1>
-  <img src="assets/logo.png" width="50" style="vertical-align: middle; margin-right: 10px;">
-  Tech QA Bot
-</h1>
 
 
 
