@@ -1,4 +1,5 @@
-# 🧠 Tech QA Bot
+<img src="assets/logo.png" width="40"> **Tech QA Bot**
+
 
 
 
