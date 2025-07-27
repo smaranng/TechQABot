@@ -115,17 +115,17 @@ ollama run tinyllama
 Open multiple terminal tabs and run the following:
 
 **Backend APIs:**
-```
+
 # Plain RAG API
-
+```
 uvicorn plain_rag_api:app --reload --port 8000
-
+```
 # LangGraph Agentic RAG API
-
+```
 uvicorn langgraph_api:app --reload --port 8001
-
+```
 # Hybrid RAG API
-
+```
 uvicorn hybrid_rag_api:app --reload --port 8002
 
 ```
@@ -144,10 +144,9 @@ python viewdatabase.py
 ```
 
 ## 📌 Notes
-```
 - Run the embedding scripts (`embedder_stackoverflow.py`, `embeder_reddit.py`) after scraping to populate ChromaDB.
 - Assets like `stack.png`, `reddit.png`, and `techqa_logo.png` are used in the UI. *Do not remove them.*
 - The system uses `stackoverflow.db` and `techqa.db` for storing forum content and scraped data.
-```
+
 
 
