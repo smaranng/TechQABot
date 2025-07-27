@@ -2,7 +2,7 @@
 # 🧠 Tech QA Bot
 ```
 
-Tech QA Bot is an intelligent Q&A assistant built using Python, leveraging advanced Retrieval-Augmented Generation (RAG) techniques—including Plain RAG, Hybrid RAG, and Agentic RAG with LangGraph—powered by ChromaDB and TinyLLaMA (via Ollama). It provides answers from technical forums like Reddit and Stack Overflow, with a user-friendly Streamlit interface and API endpoints powered by FastAPI.
+Tech QA Bot is an intelligent QnA assistant built using Python, leveraging advanced Retrieval-Augmented Generation (RAG) techniques—including Plain RAG, Hybrid RAG, and Agentic RAG with LangGraph, powered by ChromaDB and TinyLLaMA (via Ollama). It provides answers from technical communities like Reddit and Stack Overflow, with a user-friendly Streamlit interface and API endpoints powered by FastAPI.
 ```
 ## 🚀 Features
 
@@ -21,7 +21,7 @@ Tech QA Bot is an intelligent Q&A assistant built using Python, leveraging advan
 | LLM           | TinyLLaMA via Ollama                         |
 | Vector Store  | ChromaDB                                     |
 | Orchestration | LangGraph                                    |
-| Web UI        | Streamlit                                    |
+| Web UI        | Streamlit,HTML,CSS                                    |
 | API Framework | FastAPI                                      |
 | Scraping      | PRAW (Reddit), BeautifulSoup (Stack Overflow)|
 | Embedding     | Sentence Transformers                        |
