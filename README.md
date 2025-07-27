@@ -6,25 +6,27 @@
 
 ## 🚀 Features
 
-- **Plain RAG pipeline** using ChromaDB for semantic search.
-- **Hybrid RAG pipeline** with answer validation and reranking.
-- **LangGraph-powered Agentic RAG** using multiple specialized agents.
-- **Streamlit UI** for interactive chat.
-- **FastAPI endpoints** for integrating different RAG pipelines.
-- **SQLite backend** for storing scraped and embedded data.
-- **Scraping logic** for Reddit and Stack Overflow tech Q&A.
+- 🔍 **Plain RAG Pipeline** using ChromaDB for simple retrieval and generation.
+- 🤖 **Hybrid RAG Pipeline** with validation, reranking, and improved answer quality.
+- 🕸️ **Agentic RAG Pipeline** using LangGraph with multiple intelligent agents.
+- 🌐 **Streamlit Interface** for an interactive chatbot and user-configurable parameters.
+- ⚙️ **FastAPI Endpoints** for Plain, Hybrid, and Agentic RAG APIs.
+- 💾 **SQLite Databases** to store scraped content and embeddings.
+- 📥 **Reddit & Stack Overflow Scrapers** using PRAW and BeautifulSoup.
+- 🔧 **Flask-based Web Interface** to view database records.
 
 ## 🛠 Tech Stack
 
-| Component     | Technology                                   |
-|---------------|----------------------------------------------|
-| LLM           | TinyLLaMA via Ollama                         |
-| Vector Store  | ChromaDB                                     |
-| Orchestration | LangGraph                                    |
-| Web UI        | Streamlit,HTML,CSS                                    |
-| API Framework | FastAPI                                      |
-| Scraping      | PRAW (Reddit), BeautifulSoup (Stack Overflow)|
-| Embedding     | Sentence Transformers                        |
+| Component       | Technology                                      |
+|-----------------|--------------------------------------------------|
+| LLM             | TinyLLaMA via Ollama                             |
+| Vector Store    | ChromaDB                                         |
+| Agent Framework | LangGraph                                        |
+| Embeddings      | Sentence Transformers (`all-MiniLM-L6-v2`)       |
+| UI              | Streamlit, HTML, CSS                             |
+| APIs            | FastAPI, Flask                                   |
+| Scraping        | PRAW (Reddit), BeautifulSoup (Stack Overflow)    |
+| Database        | SQLite (`techqa.db`, `stackoverflow.db`)         |
 
 
 
