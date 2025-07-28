@@ -79,7 +79,7 @@ tech_qa_bot/
 └── techqa.db
 
 ```
-## 📁 agents/ — Modular Agents for Agentic RAG
+### 📁 agents/ — Modular Agents for Agentic RAG
 
 | File                  | Description                                                         |
 |-----------------------|---------------------------------------------------------------------|
