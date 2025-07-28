@@ -232,6 +232,7 @@ pip install -r requirements.txt
 ollama run tinyllama
 
 ```
+## Please go through the notes before running the project.
 
 ## 🚦 How to Run the Components
 
