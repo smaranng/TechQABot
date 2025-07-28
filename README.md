@@ -79,6 +79,124 @@ tech_qa_bot/
 └── techqa.db
 
 ```
+## 📁 agents/ — Modular Agents for Agentic RAG
+
+| File                  | Description                                                         |
+|-----------------------|---------------------------------------------------------------------|
+| `qa_agent.py`         | Generates answers using the retrieved documents and LLM.            |
+| `search_agent.py`     | Performs vector-based search using ChromaDB.                        |
+| `similarity_agent.py` | Measures semantic similarity between query and documents.           |
+| `validation_agent.py` | Validates the generated answer based on relevance and correctness.  |
+
+---
+
+## 📁 assets/ — UI Images
+
+| File             | Description                                 |
+|------------------|---------------------------------------------|
+| `stack.png`      | Stack Overflow logo used in the UI.         |
+| `reddit.png`     | Reddit logo used in the UI.                 |
+| `techqa_logo.png`| Main branding/logo of Tech QA Bot.          |
+| `logo.png`       | Alternative or additional branding image.   |
+
+---
+
+## 📁 chroma/ — ChromaDB Persistent Storage
+
+| File             | Description                                                      |
+|------------------|------------------------------------------------------------------|
+| `chroma.sqlite3` | SQLite-based vector store used by ChromaDB for retrieval.        |
+
+---
+
+## 📁 database/ — Local Database Handler
+
+| File     | Description                                                            |
+|----------|------------------------------------------------------------------------|
+| `db.py`  | Handles SQLite operations for inserting and managing scraped Q&A data. |
+
+---
+
+## 📁 pages/ — Streamlit Multi-Page Support
+
+| File               | Description                                                                      |
+|--------------------|----------------------------------------------------------------------------------|
+| `Configuration.py` | A Streamlit UI page for setting configuration or parameters (e.g., model, mode). |
+
+---
+
+## 📁 scraping/ — Web Scraping Scripts
+
+| File                | Description                                           |
+|---------------------|-------------------------------------------------------|
+| `reddit_scraper.py` | Scrapes tech Q&A posts from Reddit using PRAW.        |
+| `so_scraper.py`     | Contains logic to scrape Stack Overflow HTML pages.   |
+| `scraper_main_so.py`| Entry script to control Stack Overflow scraping flow. |
+
+---
+
+## 📁 utils/ — Utility Scripts
+
+| File        | Description                                                   |
+|-------------|---------------------------------------------------------------|
+| `clean.py`  | Cleans HTML/text content from scraped posts before embedding. |
+
+---
+
+## 🔧 Core Scripts
+
+| File                         | Description                                                             |
+|------------------------------|-------------------------------------------------------------------------|
+| `embeder_reddit.py`          | Embeds Reddit data into ChromaDB vector store.                          |
+| `embedder_stackoverflow.py`  | Embeds Stack Overflow data into ChromaDB vector store.                  |
+| `ChatBot.py`                 | Launches the main Streamlit chatbot UI.                                 |
+| `viewdatabase.py`            | Flask app to view stored queries and answers in a simple web interface. |
+
+---
+
+## 🔌 API Endpoints — FastAPI Interfaces
+
+| File                 | Description                                                        |
+|----------------------|--------------------------------------------------------------------|
+| `plain_rag_api.py`   | FastAPI backend for plain RAG: search + generate.                  |
+| `hybrid_rag_api.py`  | FastAPI backend for hybrid RAG: search + validate + generate.      |
+| `langgraph_api.py`   | FastAPI backend for agentic RAG using LangGraph.                   |
+
+---
+
+## 🔁 LangGraph-Based Agentic Pipeline
+
+| File                   | Description                                                                |
+|------------------------|----------------------------------------------------------------------------|
+| `agentic_bot.py`       | Hybrid RAG controller integrating agents into a reasoning loop.            |
+| `graph_builder.py`     | Builds the LangGraph DAG using nodes like search, QA, validate.            |
+| `llm.py`               | Handles querying the TinyLLaMA model through Ollama.                       |
+| `main_agentic_rag.py`  | Main script to orchestrate the full agentic pipeline using LangGraph.      |
+| `nodes.py`             | Defines the logic for each node (agent) used in LangGraph.                 |
+| `run_agentic_rag.py`   | Runs the LangGraph workflow locally for testing or inference.              |
+| `search.py`            | Search logic used in plain and hybrid RAG workflows.                       |
+| `state.py`             | Global state management for LangGraph workflows.                           |
+
+---
+
+## 🌐 Frontend & Styling
+
+| File         | Description                                               |
+|--------------|-----------------------------------------------------------|
+| `index.html` | Landing page or static HTML (used optionally with Flask). |
+| `style.css`  | CSS file for styling web UI components.                   |
+
+---
+
+## 📦 Misc
+
+| File                | Description                                              |
+|---------------------|----------------------------------------------------------|
+| `requirements.txt`  | Python dependencies list.                                |
+| `stackoverflow.db`  | SQLite database with scraped Stack Overflow data.        |
+| `techqa.db`         | SQLite database with scraped Reddit data.                |
+
+---
 
 ## ⚙ Installation
 
