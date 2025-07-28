@@ -79,7 +79,7 @@ tech_qa_bot/
 └── techqa.db
 
 ```
-### 📁 agents/ — Modular Agents for Agentic RAG
+📁 agents/ — Modular Agents for Agentic RAG
 
 | File                  | Description                                                         |
 |-----------------------|---------------------------------------------------------------------|
@@ -90,7 +90,7 @@ tech_qa_bot/
 
 ---
 
-## 📁 assets/ — UI Images
+📁 assets/ — UI Images
 
 | File             | Description                                 |
 |------------------|---------------------------------------------|
@@ -101,7 +101,7 @@ tech_qa_bot/
 
 ---
 
-## 📁 chroma/ — ChromaDB Persistent Storage
+📁 chroma/ — ChromaDB Persistent Storage
 
 | File             | Description                                                      |
 |------------------|------------------------------------------------------------------|
@@ -109,7 +109,7 @@ tech_qa_bot/
 
 ---
 
-## 📁 database/ — Local Database Handler
+📁 database/ — Local Database Handler
 
 | File     | Description                                                            |
 |----------|------------------------------------------------------------------------|
@@ -117,7 +117,7 @@ tech_qa_bot/
 
 ---
 
-## 📁 pages/ — Streamlit Multi-Page Support
+📁 pages/ — Streamlit Multi-Page Support
 
 | File               | Description                                                                      |
 |--------------------|----------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ tech_qa_bot/
 
 ---
 
-## 📁 scraping/ — Web Scraping Scripts
+📁 scraping/ — Web Scraping Scripts
 
 | File                | Description                                           |
 |---------------------|-------------------------------------------------------|
@@ -135,7 +135,7 @@ tech_qa_bot/
 
 ---
 
-## 📁 utils/ — Utility Scripts
+📁 utils/ — Utility Scripts
 
 | File        | Description                                                   |
 |-------------|---------------------------------------------------------------|
