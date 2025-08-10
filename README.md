@@ -228,6 +228,7 @@ pip install -r requirements.txt
 - Ollama download link:  https://ollama.com/download
 - Ensure Ollama is installed and running.
 ```
+ollama pull tinyllama
 
 ollama run tinyllama
 
